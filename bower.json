@@ -1,19 +1,16 @@
 {
-  "name": "angular-seed",
+  "name": "angularjs-advance",
   "description": "A starter project for AngularJS",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/lichenbuliren/angularjs-advance.git",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "1.3.x",
-    "angular-route": "1.3.x",
-    "angular-resource": "1.3.x",
-    "angular-loader": "1.3.x",
-    "angular-mocks": "~1.3.x",
-    "angular-animate": "1.3.x",
-    "html5-boilerplate": "~4.3.0",
-    "jquery": "~2.1.1",
-    "bootstrap": "~3.1.1"
+    "angular": "~1.3.8",
+    "angular-route": "~1.3.8",
+    "angular-resource": "~1.3.8",
+    "angular-animate": "~1.3.8",
+    "angular-mocks": "~1.3.8",
+    "bootstrap": "~3.3.1"
   }
 }
