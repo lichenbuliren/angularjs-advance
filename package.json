@@ -17,5 +17,8 @@
     "karma-chrome-launcher": "^0.1.7",
     "karma-coverage": "^0.2.7",
     "protractor": "^1.6.0"
+  },
+  "scripts":{
+    "start": "http-server -a 0.0.0.0 -p 8000"
   }
 }
