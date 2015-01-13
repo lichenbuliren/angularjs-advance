@@ -17,4 +17,8 @@ bookStoreCtrls.controller('BookListCtrl',['$scope',function($scope){
         {'title': '《ActionScript游戏设计基础》','author': '大漠穷秋'},
         {'title': '《用AngularJS开发下一代WEB应用》','author': '大漠穷秋'},
     ];
+
+    $scope.getData = function(){
+        $
+    }
 }]);
