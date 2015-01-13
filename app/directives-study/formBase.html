@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>基础表单校验</title>
+    <link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.css"/>
+    <script src="../libs/angular/1.3.8/angular.min.js"></script>
+    <script src="formBase.js"></script>
+</head>
+<body>
+    <form name="myForm" ng-submit="save()" ng-controller="TestFormModule">
+        <input type="text" name="userName" ng-model="user.userName" required/>
+        <input type="password" name="password" ng-model="user.password" required/>
+        <input type="submit" ng-disabled="myForm.$invalid"/>
+    </form>
+
+
+</body>
+</html>
